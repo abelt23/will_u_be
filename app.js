@@ -6,7 +6,7 @@ yesButton.addEventListener('click', () => {
     spread: 70,
     origin: { y: 0.6 },
   });
-  alert("Yay! You made me the happiest person! 💖");
+  alert("Yay!💖");
 });
 
 // Playful behavior for "No" button
