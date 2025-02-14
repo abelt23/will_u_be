@@ -12,7 +12,7 @@ submit1.addEventListener('click', () => {
     step1.classList.add('hidden');
     step2.classList.remove('hidden');
   } else {
-    alert("Try again! Hint: It’s someone who really likes you. 😊");
+    alert("Try again! Hint: Look inside 😊");
   }
 });
 
