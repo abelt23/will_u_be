@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Will You Be My Valentine?</title>
+  <title>Valentine's Treasure Hunt 💖</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>Hey Girl!</h1>
-    <p>I have a very important question for you...</p>
-    <p>Will you be my Valentine? 💖</p>
-    <div class="buttons">
-      <button id="yes-button">Yes!</button>
-      <button id="no-button">No</button>
+    <div id="step1" class="step">
+      <h1>Step 1: Riddle Time! 🧩</h1>
+      <p>I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?</p>
+      <input type="text" id="answer1" placeholder="Your answer">
+      <button id="submit1">Submit</button>
+    </div>
+    <div id="step2" class="step hidden">
+      <h1>Step 2: Puzzle Time! 🎨</h1>
+      <p>What has keys but can't open locks?</p>
+      <input type="text" id="answer2" placeholder="Your answer">
+      <button id="submit2">Submit</button>
+    </div>
+    <div id="step3" class="step hidden">
+      <h1>Step 3: Final Question! 💌</h1>
+      <p>Will you be my Valentine?</p>
+      <div class="buttons">
+        <button id="yes-button">Yes!</button>
+        <button id="no-button">No</button>
+      </div>
     </div>
   </div>
   <script src="app.js"></script>
