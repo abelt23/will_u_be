@@ -7,7 +7,7 @@ const noButton = document.getElementById('no-button');
 
 // Step 1: Riddle Answer (Your Name)
 submit1.addEventListener('click', () => {
-  const yourName = "Abel"; // Replace with your name
+  const yourName = "Fiker"; // Replace with your name
   if (answer1.value.toLowerCase() === yourName.toLowerCase()) {
     step1.classList.add('hidden');
     step2.classList.remove('hidden');
